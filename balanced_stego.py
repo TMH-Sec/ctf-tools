@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
 Encode and decode messages embedded in text.
-./BalancedStego.py -i injected.txt -d
+./balanced_stego.py -i injected.txt -d
 will print the secret message to screen
 
-./BalancedStego.py -i injected_text.txt -d -o output_file.txt
+./balanced_stego.py -i injected_text.txt -d -o output_file.txt
 will print the decoded message to file
 
-./BalancedStego.py -i message.txt -c carrier.txt -o output_file.txt
+./balanced_stego.py -i message.txt -c carrier.txt -o output_file.txt
 will make an encoded message
 """
 from argparse import ArgumentParser
